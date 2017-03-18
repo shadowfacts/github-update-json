@@ -1,0 +1,21 @@
+{
+  "name": "github-update-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadowfacts/github-update-json.git"
+  },
+  "author": "shadowfacts",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/shadowfacts/github-update-json/issues"
+  },
+  "homepage": "https://github.com/shadowfacts/github-update-json#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "github": "^9.2.0",
+    "xregexp": "^3.1.1"
+  }
+}
