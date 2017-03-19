@@ -89,7 +89,7 @@ function generateAndCache(proj) {
 			}
 			const json = generateJson(proj, versions);
 			const s = JSON.stringify(json, null, "\t");
-			fs.writeFile(path.join(__dirname, "cache", `${proj.slug}.json`));
+			fs.writeFile(path.join(__dirname, "cache", `${proj.slug}.json`), s);
 			cache[proj.slug] = Date.now();
 			resolve(s);
 		});
